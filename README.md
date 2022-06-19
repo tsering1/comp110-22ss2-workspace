@@ -21,19 +21,6 @@ Your work in the course will be completed in this workspace. Instructions for th
    - If you want to see your backed up work on Github, navigate to the following URL but replace `USERNAME` with your GitHub username:
    - `https://github.com/comp110-22ss2/comp110-workspace-22ss2-USERNAME`
 
-## Download New Course Material
-
-"Pulling" course materials down from Upstream. As new lesson material or starter code for exercises and projects is added to our central course repository, these are the steps you'll take to download them into your own workspace repository.
-
-1. Open the _View_ menu and select _Command Palette_ 
-   - The shortcut for this menu is:
-   - Windows: `Control+Shift+P`
-   - Mac: `Command+Shift+P`
-2. Begin typing in `Git: Pull From...` and press `Enter` once it is the first option. 
-3. Begin typing in `origin` and press `Enter` once it is the first option.
-4. Press enter with `origin/main` as the first option.
-5. This downloads the latest course materials! It will succeed silently, so if nothing appears to happen it worked (and any new files will be available in the file explorer). If there was an error, you would see an error message pop up.
-
 ## Setup Backup Course Material Repository
 
 When you are first setting up your personal workspace repository, you will need to follow these instructions to connect the repository on your computer with your personal "backup" course repository on GitHub. As we add new material through the course, you will then be able to easily back it up to your backup repo.
@@ -49,3 +36,15 @@ When you are first setting up your personal workspace repository, you will need 
 11. When asked for "Remote name" type in: `backup`
 12. Follow the steps in the section above on how to "Backup your work."
 
+## Download New Course Material
+
+"Pulling" course materials down from Upstream. As new lesson material or starter code for exercises and projects is added to our central course repository, these are the steps you'll take to download them into your own workspace repository.
+
+1. Open the _View_ menu and select _Command Palette_ 
+   - The shortcut for this menu is:
+   - Windows: `Control+Shift+P`
+   - Mac: `Command+Shift+P`
+2. Begin typing in `Git: Pull From...` and press `Enter` once it is the first option. 
+3. Begin typing in `origin` and press `Enter` once it is the first option.
+4. Press enter with `origin/main` as the first option.
+5. This downloads the latest course materials! It will succeed silently, so if nothing appears to happen it worked (and any new files will be available in the file explorer). If there was an error, you would see an error message pop up.
