@@ -35,15 +35,13 @@ if word_guess[3] == character_guess:
 
 if word_guess[4] == character_guess:
     print(character_guess + " found at index 4")
-    total_matches = total_matches + 1
+    total_matches = total_matches + 1 
 
 if total_matches == 0:
-    print("No instances of " + character_guess + " found in heels")
+    print("No instances of " + character_guess + " found in " + word_guess)
 
 if total_matches == 1:
     print(str(total_matches) + " instance of " + character_guess + " found in " + word_guess)
 
 if total_matches >= 2:
     print(str(total_matches) + " instances of " + character_guess + " found in " + word_guess)
-
-
